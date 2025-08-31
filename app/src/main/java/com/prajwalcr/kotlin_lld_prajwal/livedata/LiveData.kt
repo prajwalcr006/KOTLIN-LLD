@@ -4,7 +4,6 @@ import com.prajwalcr.kotlin_lld_prajwal.livedata.lifecycle.LifecycleOwner
 import com.prajwalcr.kotlin_lld_prajwal.livedata.observer.Observer
 import com.prajwalcr.kotlin_lld_prajwal.livedata.observer.ObserverWrapper
 import java.util.concurrent.ConcurrentHashMap
-import java.util.concurrent.ConcurrentMap
 
 open class LiveData<T> {
     private var version = 0
